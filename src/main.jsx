@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="https://aleemilyas.github.io/Portfolio/">
       <AuthContextProvider>
         <App />
       </AuthContextProvider>
