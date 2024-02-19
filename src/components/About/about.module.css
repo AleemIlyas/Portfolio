@@ -1,0 +1,58 @@
+.About{
+    margin-top: 8rem;
+    margin: 4rem 6rem;
+}
+
+.About .Heading h1 {
+    display: inline-block;
+    font-size: 4rem;
+    border-bottom: 8px solid blue;
+    font-weight: bold;
+}
+
+.About .Heading p {
+    line-height: 2rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 2rem;
+    font-weight: 400;
+}
+.About .Technologies {
+    padding: 2rem;
+}
+
+.About .Technologies h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.About .Technologies ul {
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+
+.About .Technologies ul li {
+   font-size: 1.3em;
+   padding: 8px;
+   color: white;
+   display: flex;
+   align-items: flex-end;
+}
+
+.About .Technologies ul li *:first-child {
+    color: white;
+    font-size: 3rem;
+    padding: 4px;
+    stroke: white;
+}
+
+@media screen and (max-width:550px) {
+    .About {
+        margin: 4rem 1rem;
+    }
+
+    .About .Technologies ul{
+        margin-left: 1rem;
+    }
+}

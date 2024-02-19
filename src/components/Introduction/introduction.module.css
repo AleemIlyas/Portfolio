@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 3rem 6rem;
+}
+
+
+.Introduction h1 {
+    font-size: 4em !important;
+    font-weight: bold;
+}
+
+.Introduction h2{
+    word-spacing: .5rem;
+    line-height: 3rem;
+    font-size: 2rem !important;
+    font-weight: 600;
+}
+
+.ICON{
+    display: flex;
+    margin-top: 3rem;
+   
+}
+
+.ICON * {
+    font-size: 3rem !important;
+    margin: 0 1rem;
+    color: var(--icon-color) !important ;
+}
+
+.ICON *:first-child{
+    margin-left: 0;
+}
+
+@media screen and (max-width:550px) {
+    .main {
+        margin: 4rem 1rem !important;
+    }
+}

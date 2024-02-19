@@ -1,0 +1,93 @@
+.Footer{
+    margin-top: 4rem;
+    margin: 4rem 6rem;
+}
+
+
+.Footer .Title h1 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.Footer .Title p {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    padding: 8px;
+    word-spacing: 1rem;
+    border-bottom: 8px solid blue;
+    font-weight: bold;
+}
+.Footer .contact {
+    margin: 2rem 0;
+}
+
+.Footer .contact > a {
+    position: relative;
+    border: 2px solid blue;
+    padding: 18px;
+    transition: .3s;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+
+}
+
+.Footer .contact > a::after{
+    content: '';
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: blue;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    z-index: -1;
+}
+
+
+.Footer .contact > a:hover{
+    color: white;
+}
+
+
+.Footer .contact > a:hover::after{
+    content: '';
+    width: 100%;
+    color: white;
+}
+
+.Footer .contact > p {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+    font-weight: 500;
+}
+
+.ICON{
+    margin-top: 3rem;
+    display: flex;
+}
+
+.ICON * {
+    font-size: 2rem;
+    color: var(--icon-color);
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+.ICON *:hover{
+    color: blue;
+}
+
+.ICON *:first-child{
+    margin-left: 0;
+}
+
+
+@media screen and (max-width:550px) {
+    .Footer {
+        margin: 4rem 1rem;
+    }
+
+}

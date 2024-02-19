@@ -1,0 +1,63 @@
+
+/* Form container */
+.contact{
+    width: max(50% , 350px);
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  .contact h3{
+      text-align: center;
+      padding: 1rem;
+      font-weight: bold;
+  }
+  
+  /* Form controls */
+  .controls {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(38, 0, 255);
+    border-radius: 4px;
+    font-size: 16px;
+    background: white;
+    color: black;
+    font-weight: 600;
+  }
+  
+  /* Submit button */
+  .btnsubmit {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Hover effect for submit button */
+  .btnsubmit:hover {
+    background-color: #2931a3;
+  }
+  
+  #message{
+      min-width: 100%;
+      max-width: 100%;
+      min-height: 150px;
+      max-height: 150px;
+  }
+  
+  
+@media screen and (max-width:450px) {
+  .contact{
+    padding: 3px;
+  }
+  
+}

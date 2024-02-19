@@ -1,0 +1,16 @@
+.nav{
+    font-size: 1.2em;
+    font-weight: bold !important;
+}
+
+.nav * {
+    margin: 0 12px;
+}
+
+.nav *:hover{
+    color: rgb(0, 93, 175) !important;
+}
+
+.nav a {
+    text-decoration: none;
+}

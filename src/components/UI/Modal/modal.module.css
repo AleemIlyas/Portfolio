@@ -1,0 +1,9 @@
+.Modal{
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    z-index: 100;
+    color: #010611;
+    font-weight: bold;
+    transition: .5s all ease-in-out;
+}
