@@ -20,7 +20,7 @@ import { useAuth } from "./Context/AuthContext";
 function App() {
   const { isAuthenticated } = useAuth();
   let adminRoutes = isAuthenticated ? (
-    <Route path="/Portfolio/Admin/*" element={<AdminLayout />}>
+    <Route path="/Admin/*" element={<AdminLayout />}>
       <Route index path="Dashboard" element={<AdminDashboard />} />
       <Route path="Project" element={<Project />} />
     </Route>
@@ -35,7 +35,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
         </Route>
         {adminRoutes}
-        <Route path="/Portfolio/*" element={<Navigate to="/" />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </React.Suspense>
   );
