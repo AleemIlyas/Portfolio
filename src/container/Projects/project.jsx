@@ -36,7 +36,7 @@ export default function Project() {
               <div className={styles.box}>
                 <div className={styles.content}>
                   <img
-                    src={`https://github.com/AleemIlyas/Portfolio-backend/tree/main/Images/${item.image}`}
+                    src={`https://github.com/AleemIlyas/Portfolio-backend/blob/main/Images/${item.image}`}
                     alt={item.title}
                     loading="lazy"
                   />
