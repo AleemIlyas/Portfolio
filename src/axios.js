@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const adminInstance = axios.create({
-    baseURL: 'http://localhost:5500',
+    baseURL: 'https://portfolio-backend-tau-two.vercel.app/',
     headers: {
         'Content-Type': 'application/json',
     },
